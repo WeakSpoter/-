@@ -1,0 +1,2 @@
+텍스트 색깔 만들기 사이트 :https://html-css-js.com/css/generator/text-shadow/
+백그라운드 화면  : https://www.colorzilla.com/gradient-editor/

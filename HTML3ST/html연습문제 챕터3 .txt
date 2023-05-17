@@ -1,0 +1,189 @@
+01번
+
+(1) h는 heading의 약자입니다.
+
+(2) p은 paragraph의 약자입니다.
+
+(3) br은 break의 약자입니다.
+
+(4) hr은 horizontal rule의 약어입니다.
+
+(5) a는 anchor의 약자입니다.
+
+(6) href는 hyper reference의 약어입니다.
+
+(7) b는 bold의 약자입니다.
+
+(8) i는 italic의 약자입니다.
+
+(9) sub는 subscript의 약자입니다.
+
+(10) sup는 superscript의 약자입니다.
+
+(11) ins는 insert의 약자입니다.
+
+(12) del은 delete의 약자입니다.
+
+(13) ul은 unordered list의 약어입니다.
+
+(14) ol은 ordered list의 약어입니다.
+
+(15) li는 list item의 약어입니다.
+
+(16) tr은 table row의 약어입니다.
+
+(17) th는 table heading의 약어입니다.
+
+(18) td는 table data의 약어입니다.
+
+(19) HTML 본문에 공백을 여러 번 넣고 싶을 때는 &nbsp를 사용합니다.
+
+(20) HTML 본문에 < 기호를 넣고 싶을 때는 &lt를 사용합니다.
+
+(21) HTML 본문에 > 기호를 넣고 싶을 때는 &gt를 사용합니다.
+
+02번
+
+(1) h1 태그가 가장 큰 제목 태그고, h6 태그가 가장 작은 제목 태그입니다. (O)
+
+(2) a 태그의 링크를 지정할 때는 link 속성을 사용합니다. (X)
+
+-> a 태그의 링크를 지정할 때는 href 속성을 사용한다.
+
+(3) 목록은 ul 태그와 ol 태그 내부에 li 태그를 넣어서 만듭니다. (O)
+
+(4) 목록 내부에 목록을 중첩할 수 있습니다. (O)
+
+(5) th 태그와 td 태그의 rowspan 속성과 colspan 속성을 사용하면 마이크로소프트 워드 등 스프레드시트에 있는 셀 병합 기능처럼 테이블의 셀을 병합할 수 있습니다. (O)
+
+(6) img 태그, audio 태그, video 태그는 모두 텍스트 등 내용물을 가질 수 없습니다. (X)
+
+(7) audio 태그, video 태그에 controls 속성을 지정할 때 표시되는 재생 제어 버튼들은 모든 웹 브라우저에서 모양, 형태가 같습니다. (X)
+
+주관식
+
+03번 = 3
+04번 = 1  
+05번 = 4  
+06번 = 1  
+07번 = 2
+
+08번 링크 클릭시 이동하는 a (하이퍼링크 구문)
+
+<a href="www.naver.com"></a>
+<a href="www.google.com"></a>
+<a href="www.pcu.ac.kr"></a>
+
+09 번 이미지 클릭 시 배재대학교 로 이동된다
+<a href="https://www.pcu.ac.kr/kor"><img src="https://www.pcu.ac.kr/images/site/kor/layout/logo.svg"></a>
+
+10번 웹페이지 생성
+<!DOCTYPE html>
+<html>
+<head>
+    <title>제목</title>
+</head>
+<body>
+    <h1>HTML5 Basic</h1>
+    <h3>ITCookbook - HanbitAcademy</h3>
+    <hr>
+    <p>Lorem imsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit
+        feugiat nisi, vel lacinia magna posuere id. Integer ac tellus diam. Donec
+        feugiat nulla non turpis semper, vel suscipit sapien mools. Vestibulum dolor
+        tellus, vulputate in turpis vel, auctor consequat justo. Nullam congue justo
+        eget ipsum mollis hendrerit. Aliquam returm gravida eros eget elementum.
+        Suspendisse gravida sem at leo mattis, eu auctor neque iaculis</p>
+</body>
+</html>
+
+11번 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3.11</title>
+</head>
+<body> 
+    <ul>
+        <li>따뜻한 음료
+            <ol>
+                <li>커피</li>
+                <li>녹차</li>
+                <li>둥굴레차</li>
+            </ol>
+        </li>
+        
+        <li>차가운 음료
+            <ol>
+                <li>커피</li>
+                <li>스무디</li>
+                <li>식혜</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
+
+12번 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3.12</title>
+</head>
+<body> 
+    <table border="1">
+        <tr>
+            <th colspan="6">한국의 차</th>
+        </tr>
+        <tr>
+            <th rowspan="6">뿌리차</th>
+            <td>인삼차</td>
+            <th rowspan="9">과일차</th>
+            <td>수정과</td>
+            <th rowspan="5">잎차</th>
+            <td>뽕잎차</td>
+        </tr>
+        <tr>
+            <td>당귀차</td>
+            <td>유자차</td>
+            <td>감잎차</td>
+        </tr>
+        <tr>
+            <td>생강차</td>
+            <td>구기자차</td>
+            <td>솔잎차</td>
+        </tr>
+        <tr>
+            <td>칡차</td>
+            <td>대추차</td>
+            <td>국화차</td>
+        </tr>
+        <tr>
+            <td>둥굴레차</td>
+            <td>오미자차</td>
+            <td>이슬차</td>
+        </tr>
+        <tr>
+            <td>마차</td>
+            <td>매실차</td>
+            <th rowspan="4">기타</th>
+            <td>두충차</td>
+        </tr>
+        <tr>
+            <th rowspan="3">곡물차</th>
+            <td>보리차</td>
+            <td>모과차</td>
+            <td>영지버섯차</td>
+        </tr>
+        <tr>
+            <td>옥수수차</td>
+            <td>산수유차</td>
+            <td>귤강차</td>
+        </tr>
+        <tr>
+            <td>현미차</td>
+            <td>탱자차</td>
+            <td>쌍화차</td>
+        </tr>
+    </table>
+</body>
+</html>

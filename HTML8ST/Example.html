@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <title>네이버스타일</title>
+    <style>
+        .container {
+            width: 1080px;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-bottom: 8px;
+        }
+
+        .left {
+            float: left;
+            background: red;
+            width: 740px;
+            height: 428px;
+        }
+
+        .right {
+            float: right;
+            background: blue;
+            width: 332px;
+            height: 428px;
+        }
+    </style>
+    <style>
+        .container {
+            width: 1080px;
+            overflow: hidden;
+            margin: 0 auto
+        }
+
+        ul.gnb {
+            float: left;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 0;
+            background: green;
+            color: #fff;
+        }
+
+        ul.gnb>li {
+            list-style-type: none;
+            float: left;
+            padding-left: 16px;
+        }
+
+        ul.gnb>li:first-child {
+            padding-left: 10px;
+        }
+
+        ul.gnb>li:last-child {
+            padding-right: 10px;
+        }
+
+        ul.rank {
+            float: right;
+            background: yellow;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 0;
+        }
+
+        ul.rank>li {
+            list-style-type: none;
+        }
+
+        .footer {
+            background-color: yellow;
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Logo</h1>
+    </div>
+    <!-- (2)번 문제와 같습니다. -->
+    <div class="container">
+        <ul class="gnb">
+            <li>메일</li>
+            <li>카페</li>
+            <li>블로그</li>
+            <li>쇼핑</li>
+            <li>사전</li>
+            <li>뉴스</li>
+            <li>증권</li>
+            <li>부동산</li>
+            <li>지도</li>
+        </ul>
+        <ul class="rank">
+            <li>실시간 검색 순위</li>
+        </ul>
+    </div>
+    <!-- (1)번 문제와 같습니다. -->
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <!-- (1)번 문제와 같습니다: 2개 배치했습니다. -->
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <!-- 추가합니다. -->
+    <div class="container">
+        <!-- 높이를 80px로 지정했습니다. -->
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
